@@ -10,6 +10,7 @@ struct Index {
 
   build() {
     Column() {
+      Text("hello world")
       Web({ src: this.url, controller: this.controller })
     }
   }
